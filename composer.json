@@ -1,0 +1,22 @@
+{
+	"name": "base/mvc",
+	"require": {
+		"php": ">=5.6"
+	},
+	"authors": [
+		{
+			"name": "Huriel Lopes",
+			"email": "huriellopes1996@gmail.com"
+		}
+	],
+	"scripts": {
+		"server": "php -S localhost:8080 -t public",
+		"comp": "php composer.phar install"
+	},
+	"autoload": {
+		"psr-4": {
+			"Base\\": "vendor/Base",
+			"App\\": "App/"
+		}
+	}
+}
