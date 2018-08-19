@@ -67,25 +67,3 @@ $(document).ready(function () {
 		} 
 	});
 });
-
-// VALIDA O TIPO DE PESSOA!
-$(document).ready(function(){
-    $('#txtpessoa').on('change',function(){
-        var pessoa = $('#txtpessoa').val();
-
-        // Verifica a seleção do tipo de pessoa
-        if(pessoa == '1'){
-            $('#idcnpj').hide();
-            $('#idcnpj input:text').val(''); // Limpa o campo, se for selecionado Pessoa Física
-            $('#div_cnpj').removeClass('has-success');
-            $('#div_cnpj').addClass('has-error');
-            $('#idcpf').show();
-        }else if(pessoa == '2'){
-            $('#idcnpj').show();
-            $('#idcpf').hide();
-            $('#idcpf input:text').val(''); // Limpa o campo, se for selecionado Pessoa Jurídica
-            $('#div_cpf').removeClass('has-success');
-            $('#div_cpf').addClass('has-error');
-        }
-    });
-});
