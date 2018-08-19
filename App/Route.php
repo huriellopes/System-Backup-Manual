@@ -21,6 +21,18 @@ class Route extends Bootstrap
 			'action'		=> 'backup'
 		);
 
+		$route['restaura'] = array(
+			'route'			=> '/restaura',
+			'controller'	=> 'PrincipalController',
+			'action'		=> 'Restaura'
+		);
+
+		$route['restaurabackup'] = array(
+			'route'			=> '/restaurabackup',
+			'controller'	=> 'PrincipalController',
+			'action'		=> 'RestauraBackup'
+		);
+
 		$route['executa'] = array(
 			'route'			=> 	'/executa',
 			'controller'	=>	'PrincipalController',

@@ -3,9 +3,9 @@
 return [
     "db" => [
         'host'      =>  'localhost:3307', // HostServer
-        'dbname'    =>  'mvc', // Dbname
+        'dbname'    =>  '', // Dbname
         'username'  =>  'root', // Username
-        'password'  =>  '299610', // Password
+        'password'  =>  '', // Password
         'charset'   =>  'utf8', // Charset collate UTF-8
     ]
 ];

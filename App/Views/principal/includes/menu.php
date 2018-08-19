@@ -13,6 +13,9 @@
         <li class="nav-item">
           <a class="nav-link" href="/backup">Backup</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/restaura">Restauração</a>
+        </li>
       </ul>
     </div>
   </div>

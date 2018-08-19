@@ -49,6 +49,11 @@ class PrincipalController extends Controller
 
 	public function Restaura()
 	{
+		$this->render("restaura");	
+	}
+
+	public function RestauraBackup()
+	{
 		// Cria um objeto
 		$restaura = new PrincipalModel();
 

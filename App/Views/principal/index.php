@@ -6,9 +6,10 @@
 	<div class="row mt-3">
 		<div class="col mt-5">
 			<div class="alert alert-warning" role="alert">
-				<h4 class="alert-heading text-center">Atenção! Bem Vindo!</h4>
+				<h3 class="text-center"><i class="fas fa-exclamation-triangle"></i></h3>
+				<h4 class="alert-heading text-center">Atenção!</h4>
 				<p class="text-justify">
-					O sistema de backup manual tem o objetivo de trazer facilidade em fazer o backup de um banco de dados, podendo ser feito de duas formas! Um é no estilo do phpmyadmin, e outro que é bastante utilizado por muitas empresas!
+					O sistema de backup manual tem o objetivo de trazer facilidade em fazer o backup de um banco de dados, podendo ser feito de duas formas! Um é no estilo do phpmyadmin, e outro que é bastante utilizado por muitas empresas! Também vem com a função de fazer restauração de backup de uma forma mais prática e fácil! <strong>Obs.: </strong>Para fazer a restauração do banco de dados, você deverá criar antes o banco, para restaurar as tabelas e os dados do banco. <strong>ex.:</strong> <strong>CREATE DATABASE</strong> teste;
 				</p>
 				<hr />
 				<p class="mb-0 text-center">
