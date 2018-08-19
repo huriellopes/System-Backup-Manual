@@ -13,7 +13,7 @@
 				</p>
 				<hr />
 				<p class="mb-0 text-center">
-					Sistema feito por: Huriel Lopes - Todos os Direitos Reservados
+					Sistema feito por: Huriel Lopes - <i class="far fa-copyright far-1x"></i> Todos os Direitos Reservados
 				</p>
 			</div>
 		</div>
